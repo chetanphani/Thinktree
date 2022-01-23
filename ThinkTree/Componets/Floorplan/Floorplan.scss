@@ -1,0 +1,49 @@
+@import "../../Commoncomp/colors.scss";
+
+.floorPlan {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+  margin-top: 100px;
+  position: relative;
+  height: 90vh;
+  text-align: center;
+}
+.borderBox {
+  width: 50%;
+  height: 306px;
+  border: 2px solid;
+  border-color: $secondary-background;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  border-radius: 5px;
+}
+.masterPlan {
+  position: absolute;
+  width: 20%;
+  height: 286px;
+  top: 20%;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 30px;
+
+  .button {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 90%;
+    left: 13%;
+    border: 2px solid;
+    border-color: $secondary-font;
+    border-radius: 5px;
+    background-color: $secondary-font;
+  }
+}
+@media screen and (max-width: 940px) {
+  .button {
+    max-width: 100%;
+  }
+}

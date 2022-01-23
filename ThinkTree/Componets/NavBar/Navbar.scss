@@ -1,0 +1,44 @@
+@import "../../Commoncomp/colors.scss";
+
+.Navbar_Main {
+  display: flex;
+
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.Navbar_Main .sidebar {
+  height: 800px;
+  background: $alternative-background;
+  padding: 50px 0px;
+  position: fixed;
+}
+.Navbar_Main .sidebar h2 {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+
+  padding-top: 20px;
+}
+
+.Navbar_Main .sidebar ul li {
+  padding: 35px;
+  cursor: pointer;
+  border-bottom: 1px solid greenyellow;
+
+  border-top: 1px solid greenyellow;
+}
+
+.Navbar_Main .sidebar ul li a {
+  color: $primary-backgound;
+  display: block;
+  text-decoration: none;
+  
+}
+
+.Navbar_Main .sidebar ul li:hover{
+  background-color: $secondary-font;
+  transform: scaleX(1.8);
+  transition: 0.5s;
+  text-align: center;
+  border-radius: 5px;
+}

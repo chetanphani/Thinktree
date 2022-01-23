@@ -1,0 +1,79 @@
+@import "../../Commoncomp/colors.scss";
+
+.contactsMain {
+  height: 90vh;
+  margin-left: 180px;
+
+  border: 2px solid;
+  border-color: $secondary-background;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 200px;
+}
+.details {
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+
+  p {
+    color: $primary-font;
+    opacity: 0.8;
+    line-height: 20px;
+  }
+  h2 {
+    padding-top: 70px;
+  }
+}
+.ceyone {
+  margin-top: 40px;
+  color: $secondary-font;
+  font-size: 60px;
+}
+.map {
+  border: 2px solid;
+  height: 97%;
+  width: 350px;
+  border-color: $secondary-background;
+
+  h1 {
+    padding-top: 300px;
+    text-align: center;
+  }
+}
+.form {
+  padding: 9px;
+  padding-top: 200px;
+
+  input {
+    height: 40px;
+    border-radius: 3px;
+    width: 250px;
+    border-color: $secondary-background;
+    outline: none;
+  }
+  h2 {
+    padding-bottom: 10px;
+  }
+}
+.buttons {
+  width: 150px;
+  background-color: $secondary-font;
+  height: 50px;
+  border-radius: 9px;
+}
+.details_sub {
+  padding-top: 200px;
+}
+
+//MEDIA Queries
+@media screen and (max-width: 940px) {
+  .map {
+    width: 200px;
+  }
+  .contactsMain {
+    width: 70%;
+  }
+  .form input {
+    width: 100px;
+  }
+}

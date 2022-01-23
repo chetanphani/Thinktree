@@ -1,0 +1,19 @@
+@import "../../Commoncomp/colors.scss";
+
+.stats {
+  margin-left: 158px;
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid black;
+
+  margin-top: 73px;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  h2 {
+    padding: 40px;
+  }
+  span {
+    color: $secondary-font;
+    font-size: 50px;
+  }
+}
