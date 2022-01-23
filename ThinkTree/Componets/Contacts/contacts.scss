@@ -64,6 +64,16 @@
 .details_sub {
   padding-top: 200px;
 }
+.copyRight{
+  margin-left: 400px;
+  padding-top: 80px;
+  display: flex;
+
+  span{
+    color: $secondary-background;
+  }
+}
+
 
 //MEDIA Queries
 @media screen and (max-width: 940px) {
