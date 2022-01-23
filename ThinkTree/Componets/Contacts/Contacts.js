@@ -49,6 +49,9 @@ const Contacts = () => {
           </form>
         </div>
       </div>
+     <div className="copyRight">
+          <h1>© KRS Park Royal<span> 2021,developed by </span>Ceyone</h1>
+      </div>
     </>
   );
 };
